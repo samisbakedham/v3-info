@@ -177,8 +177,8 @@ export const polygonBlockClient = new ApolloClient({
   },
 })
 
-export const celoClient = new ApolloClient({
-  uri: 'https://api.thegraph.com/subgraphs/name/jesse-sawa/uniswap-celo',
+export const candleClient = new ApolloClient({
+  uri: 'http://18.206.149.226:8000/subgraphs/name/ianlapham/uniswap-v3',
   cache: new InMemoryCache({
     typePolicies: {
       Token: {
@@ -205,8 +205,8 @@ export const celoClient = new ApolloClient({
   },
 })
 
-export const celoBlockClient = new ApolloClient({
-  uri: 'https://api.thegraph.com/subgraphs/name/jesse-sawa/celo-blocks',
+export const candleBlockClient = new ApolloClient({
+  uri: 'http://18.206.149.226:8000/subgraphs/name/ianlapham/uniswap-v3',
   cache: new InMemoryCache(),
   queryDeduplication: true,
   defaultOptions: {

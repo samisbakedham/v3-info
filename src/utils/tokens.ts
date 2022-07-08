@@ -1,6 +1,6 @@
-import { Token } from '@uniswap/sdk-core'
-import { CeloNetworkInfo, NetworkInfo, PolygonNetworkInfo } from 'constants/networks'
-import { CELO_ADDRESS, MATIC_ADDRESS, WETH_ADDRESSES } from '../constants'
+import { Token } from '@cndllabs/sdk-core'
+import { CandleNetworkInfo, NetworkInfo, PolygonNetworkInfo } from 'constants/networks'
+import { CNDL_ADDRESS, MATIC_ADDRESS, WETH_ADDRESSES } from '../constants'
 
 export interface SerializedToken {
   chainId: number
@@ -26,9 +26,9 @@ export function formatTokenSymbol(address: string, symbol: string, activeNetwork
     return 'MATIC'
   }
 
-  // dumb catch for Celo
-  if (address === CELO_ADDRESS && activeNetwork === CeloNetworkInfo) {
-    return 'CELO'
+  // dumb catch for Candle
+  if (address === CNDL_ADDRESS && activeNetwork === CandleNetworkInfo) {
+    return 'CNDL'
   }
 
   if (WETH_ADDRESSES.includes(address)) {
@@ -43,9 +43,9 @@ export function formatTokenName(address: string, name: string, activeNetwork?: N
     return 'MATIC'
   }
 
-  // dumb catch for Celo
-  if (address === CELO_ADDRESS && activeNetwork === CeloNetworkInfo) {
-    return 'CELO'
+  // dumb catch for Candle
+  if (address === CNDL_ADDRESS && activeNetwork === CandleNetworkInfo) {
+    return 'CNDL'
   }
 
   if (WETH_ADDRESSES.includes(address)) {

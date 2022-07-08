@@ -6,7 +6,7 @@ import { fortmatic, injected, portis, walletconnect, walletlink } from '../conne
 export const MAX_UINT128 = BigNumber.from(2).pow(128).sub(1)
 
 export const MATIC_ADDRESS = '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270'
-export const CELO_ADDRESS = '0x471EcE3750Da237f93B8E339c536989b8978a438'
+export const CNDL_ADDRESS = '0x85FA00f55492B0437b3925381fAaf0E024747627'
 
 const WETH_ADDRESS = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
 const ARBITRUM_WETH_ADDRESS = '0x82af49447d8a07e3bd95bd0d56f35241523fbab1'

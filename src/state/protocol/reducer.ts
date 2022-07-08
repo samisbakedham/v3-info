@@ -58,7 +58,7 @@ export const initialState: ProtocolState = {
     transactions: undefined,
     lastUpdated: undefined,
   },
-  [SupportedNetwork.CELO]: {
+  [SupportedNetwork.CANDLE]: {
     data: undefined,
     chartData: undefined,
     transactions: undefined,

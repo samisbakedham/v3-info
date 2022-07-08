@@ -10,5 +10,5 @@ export enum SupportedChainId {
   OPTIMISM = 10,
   OPTIMISTIC_KOVAN = 69,
 
-  CELO = 42220,
+  CANDLE = 534,
 }
