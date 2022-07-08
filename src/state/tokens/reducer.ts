@@ -70,7 +70,7 @@ export const initialState: TokensState = {
     [SupportedNetwork.ARBITRUM]: {},
     [SupportedNetwork.OPTIMISM]: {},
     [SupportedNetwork.POLYGON]: {},
-    [SupportedNetwork.CELO]: {},
+    [SupportedNetwork.CANDLE]: {},
   },
 }
 
