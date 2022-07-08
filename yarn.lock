@@ -1206,6 +1206,18 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@cndllabs/sdk-core@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@cndllabs/sdk-core/-/sdk-core-3.0.3.tgz#fab3581b967dd603400d5d533894117a1f91bc08"
+  integrity sha512-smZV0Q2n/wLGTgcnShAy6c7ELpPFGRkKDxtJ/82+on9K+PVUKnwh415MgJdyiI9AUi0XNAkTVN2pSSyQcLPG6g==
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
