@@ -178,7 +178,7 @@ export const polygonBlockClient = new ApolloClient({
 })
 
 export const candleClient = new ApolloClient({
-  uri: 'https://thegraph.cndlchain.com/subgraphs/name/ianlapham/uniswap-v3/graphql/',
+  uri: 'https://thegraph.cndlchain.com/subgraphs/name/ianlapham/uniswap-v3',
   cache: new InMemoryCache({
     typePolicies: {
       Token: {
@@ -206,7 +206,7 @@ export const candleClient = new ApolloClient({
 })
 
 export const candleBlockClient = new ApolloClient({
-  uri: 'https://thegraph.cndlchain.com/subgraphs/name/candleplatforms/candleblocks/',
+  uri: 'https://thegraph.cndlchain.com/subgraphs/name/candleplatforms/candleblocks',
   cache: new InMemoryCache(),
   queryDeduplication: true,
   defaultOptions: {
