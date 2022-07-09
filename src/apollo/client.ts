@@ -206,7 +206,7 @@ export const candleClient = new ApolloClient({
 })
 
 export const candleBlockClient = new ApolloClient({
-  uri: 'http://18.206.149.226:8000/subgraphs/name/ianlapham/uniswap-v3',
+  uri: 'http://18.206.149.226:8000/subgraphs/name/candleplatforms/candleblocks',
   cache: new InMemoryCache(),
   queryDeduplication: true,
   defaultOptions: {
