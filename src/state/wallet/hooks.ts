@@ -1,4 +1,4 @@
-import { CurrencyAmount, Token } from '@uniswap/sdk-core'
+import { CurrencyAmount, Token } from '@cndllabs/sdk-core'
 import JSBI from 'jsbi'
 import { useMemo } from 'react'
 import ERC20_INTERFACE from '../../constants/abis/erc20'

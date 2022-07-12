@@ -1,4 +1,4 @@
-import { Token } from '@uniswap/sdk-core'
+import { Token } from '@cndllabs/sdk-core'
 import { useCallback, useMemo } from 'react'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'
 import { useActiveWeb3React } from '../../hooks'
