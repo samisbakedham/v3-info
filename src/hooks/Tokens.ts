@@ -1,6 +1,6 @@
 import { TokenAddressMap, useUnsupportedTokenList } from './../state/lists/hooks'
 import { parseBytes32String } from '@ethersproject/strings'
-import { Token } from '@uniswap/sdk-core'
+import { Token } from '@cndllabs/sdk-core'
 import { useMemo } from 'react'
 import { useCombinedActiveList, useCombinedInactiveList } from '../state/lists/hooks'
 import { NEVER_RELOAD, useSingleCallResult } from '../state/multicall/hooks'
