@@ -172,7 +172,7 @@ export default function TokenPage({
         !tokenData.exists ? (
           <LightGreyCard style={{ textAlign: 'center' }}>
             No pool has been created with this token yet. Create one
-            <StyledExternalLink style={{ marginLeft: '4px' }} href={`https://app.uniswap.org/#/add/${address}`}>
+            <StyledExternalLink style={{ marginLeft: '4px' }} href={`https://app.cityswap.org/#/add/${address}`}>
               here.
             </StyledExternalLink>
           </LightGreyCard>
