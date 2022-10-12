@@ -41,7 +41,6 @@ export const ArbitrumNetworkInfo: NetworkInfo = {
   bgColor: '#0A294B',
   primaryColor: '#0490ED',
   secondaryColor: '#96BEDC',
-  blurb: 'Beta',
 }
 
 export const OptimismNetworkInfo: NetworkInfo = {
@@ -52,7 +51,6 @@ export const OptimismNetworkInfo: NetworkInfo = {
   primaryColor: '#F01B36',
   secondaryColor: '#FB7876',
   imageURL: OPTIMISM_LOGO_URL,
-  blurb: 'Beta',
 }
 
 export const PolygonNetworkInfo: NetworkInfo = {
